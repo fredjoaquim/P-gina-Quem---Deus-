@@ -50,3 +50,18 @@ p , ul {
     padding: 5px;
     width: 150px;
     }
+
+    .rodape {
+        text-align: center;
+        padding: 20px 10px; 
+        font-family: Arial, sans-serif; 
+        color: #333;
+        margin-top: 40px;
+         }
+
+    .imagem {
+        width: 30px;
+        height: 30px; 
+        display: block; 
+        margin: 0 auto 10px;
+    }
