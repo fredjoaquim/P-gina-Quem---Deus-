@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'minha fonte 1';
+    src: url(https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap);
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'minha fonte 2';
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap);
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+body {
+    color: #333333;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 3px solid #ffffff;
+    margin: auto;
+    width: 60%;
+}
+
+.sem__numeros {
+    list-style-type: none;
+}
+
+h1 , h2 {
+    color:#333333;
+    background-color: #ffffff;
+    font-family: "Cormorant Garamond", serif;
+}
+
+p , ul {
+    color: #333333;
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+}
+
+ img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ffffff;
+    border-radius: 1px;
+    padding: 5px;
+    width: 150px;
+    }
